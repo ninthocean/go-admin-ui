@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      title: 'go-admin后台管理系统',
+      title: 'teamwork协同设计平台',
       logo: 'https://gitee.com/mydearzwj/image/raw/master/img/go-admin.png'
     }
   }

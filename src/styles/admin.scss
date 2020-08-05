@@ -64,7 +64,22 @@
 	height: 40px;
 	font-size: 13px;
 }
-
+.el-table--default th, .el-table--default td {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.el-table--medium th, .el-table--medium td {
+	font-size: 13px;
+    padding: 2px 0;
+}
+.el-table--small th, .el-table--small td {
+	font-size: 12px;
+    padding: 2px 0;
+}
+.el-table--mini th, .el-table--mini td {
+	font-size: 12px;
+    padding: 2px 0;
+}
 /** 表单布局 **/
 .form-header {
     font-size:15px;
@@ -97,6 +112,10 @@
 
 .el-tree-node__content > .el-checkbox {
 	margin-right: 8px;
+}
+
+.el-tree-node__label {
+	font-size: 13px;
 }
 
 .list-group-striped > .list-group-item {

@@ -68,7 +68,10 @@
     .el-submenu__title {
       &:hover {
         background-color: $menuHover !important;
-      }
+	  };
+	  font-size: 13px;
+	  height: 35px;
+	  line-height: 35px;
     }
 
     .is-active>.el-submenu__title {
@@ -78,7 +81,10 @@
     & .nest-menu .el-submenu>.el-submenu__title,
     & .el-submenu .el-menu-item {
       min-width: $sideBarWidth !important;
-      background-color: $subMenuBg !important;
+	  background-color: $subMenuBg !important;
+	  font-size: 13px;
+	  height: 35px;
+	  line-height: 35px;
 
       &:hover {
         background-color: $subMenuHover !important;
@@ -182,6 +188,9 @@
 
   .nest-menu .el-submenu>.el-submenu__title,
   .el-menu-item {
+	font-size: 13px;
+	height: 35px;
+	line-height: 35px;
     &:hover {
       // you can use $subMenuHover
       background-color: $menuHover !important;

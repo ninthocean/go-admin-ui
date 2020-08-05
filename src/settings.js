@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'go-admin后台管理系统',
+  title: 'teamwork协同设计平台',
 
   /**
    * @type {boolean} true | false
