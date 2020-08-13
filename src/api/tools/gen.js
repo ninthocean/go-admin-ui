@@ -78,4 +78,3 @@ export function toDBTable(tableId) {
     method: 'get'
   })
 }
-
